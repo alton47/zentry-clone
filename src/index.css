@@ -11,7 +11,7 @@ body {
 
 @layer base {
   @font-face {
-    font-family: "circular-web";
+    font-family: "circular-web"; /* Add "" to Hyphens */
     src: url("/fonts/circularweb-book.woff2") format("woff2");
   }
 
