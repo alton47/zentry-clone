@@ -9,7 +9,7 @@ import Button from "./Button";
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
 const NavBar = () => {
-  // State for toggling audio and visual indicator
+  // State for toggling audio and visual indicators
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
@@ -27,7 +27,7 @@ const NavBar = () => {
     setIsIndicatorActive((prev) => !prev);
   };
 
-  // Manage audio playback
+  // Manage audio playback for MP3
   useEffect(() => {
     if (isAudioPlaying) {
       audioElementRef.current.play();
