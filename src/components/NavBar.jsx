@@ -9,11 +9,11 @@ import Button from "./Button";
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
 const NavBar = () => {
-  // State for toggling audio and visual indicator
+  // State for toggling audio and visual indicators
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
-  // Refs for audio and navigation container
+  // Referencess for audio and navigation container
   const audioElementRef = useRef(null);
   const navContainerRef = useRef(null);
 
