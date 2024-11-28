@@ -8,6 +8,7 @@ export const BentoTilt = ({ children, className = "" }) => {
   const handleMouseMove = (event) => {
     if (!itemRef.current) return;
 
+    // Mouse Position Handler
     const { left, top, width, height } =
       itemRef.current.getBoundingClientRect();
 
