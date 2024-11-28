@@ -27,7 +27,7 @@ const NavBar = () => {
     setIsIndicatorActive((prev) => !prev);
   };
 
-  // Manage audio playback
+  // Manage audio playback for MP3
   useEffect(() => {
     if (isAudioPlaying) {
       audioElementRef.current.play();
