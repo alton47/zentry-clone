@@ -81,7 +81,7 @@ const NavBar = () => {
             />
           </div>
 
-          {/* Navigation Links and Audio Button */}
+          {/* Navigation Links and Audio Button also it's Center NOT Centre*/}
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item, index) => (
